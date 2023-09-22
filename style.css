@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 500vh;
+}
+@font-face {
+    font-family: 'Slant';
+    src: url('fonts/Slant/SLANT.TTF');
+  }
+nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: #061231;
+    min-height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+nav .row{
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+}
+.LogoSpan{
+    font-family: Slant;
+    color: white;
+    font-size: 50px;
+}
+
+.RightNav{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-self: center;
+
+}
+.RightNav ul {
+    height: 100%;
+    display: contents;
+}
+.RightNav ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.RightNav ul li a{
+    transition: all .1s linear;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+.RightNav ul li:hover a{
+    color: #a8aebd;
+}
+.RightNav ul li button{
+    padding: 18px 40px 18px 40px;
+    
+    /* height: 70px; */
+    border: #fff;
+    border-radius: 8px;
+    color: #fff;
+    background: #1d4ac4;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+/* first section */
+.FirstSection{
+    background-color: #061231;
+    min-height: 800px;
+}
+.RightSideText{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.RightSideText h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+.RightSideText h5{
+    font-weight: 400 !important;
+    color: #fff;
+    font-size: 24px;
+    line-height:2.8rem;
+}
+
+.LearnBtn{
+    transition: all .2s linear;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    background-color: #f9fc61 !important;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+}
+.LearnBtn:hover{
+    background-color:#e3e70d !important;
+    font-weight: 600;
+    scale: 1.1;
+}
+.RightImage img{
+    transition: all .5s ease-in-out;
+}
+.RightImage:hover img{
+    scale: 1.1;
+    top: 10px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #061231;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1d4ac4;
+}
+
+
+::-moz-scrollbar {
+    width: 12px;
+    background-color: #061231;
+}
+
+::-moz-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1d4ac4;
+}
+
+::-ms-scrollbar {
+    width: 12px;
+    background-color: #061231;
+}
+
+::-ms-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-ms-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1d4ac4;
+}
+
