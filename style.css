@@ -9,6 +9,12 @@ body{
 @font-face {
     font-family: 'Slant';
     src: url('fonts/Slant/SLANT.TTF');
+    
+  }
+  @font-face {
+    font-family: 'Croiss';
+    src: url(fonts/CroissantOne/CroissantOne-Regular.ttf);
+    
   }
 nav{
     position: sticky;
@@ -61,7 +67,6 @@ nav .row{
 }
 .RightNav ul li button{
     padding: 18px 40px 18px 40px;
-    
     /* height: 70px; */
     border: #fff;
     border-radius: 10px;
@@ -122,8 +127,44 @@ nav .row{
     top: 10px;
 }
 
+.BrandContainer{
+    margin-top: 100px;
+    min-height: 80px;
+    padding: 20px;
+}
+.BrandHeader{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BrandHeader h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8b909e;
+    font-family: Slant;
+}
 
+.Brand{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Brand span{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Croiss;
+    font-weight: 800;
+    color: #a8aebd;
+}
 
+/* -------------------------- */
 ::-webkit-scrollbar {
     width: 12px;
     background-color: #061231;
@@ -166,4 +207,5 @@ nav .row{
     border-radius: 10px;
     background-color: #1d4ac4;
 }
+
 
