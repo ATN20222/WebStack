@@ -13,7 +13,7 @@ body{
   }
   @font-face {
     font-family: 'Croiss';
-    src: url(fonts/CroissantOne/CroissantOne-Regular.ttf);
+    src: url('fonts/CroissantOne/CroissantOne-Regular.ttf');
     
   }
 nav{
