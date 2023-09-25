@@ -74,11 +74,13 @@ nav .row{
     border: #fff;
     border-radius: 10px;
     color: #fff;
-    background: #1d4ac4;
+    /* background: #1d4ac4; */
+    background-image: linear-gradient(90deg, #791A96, #4C78DF);
     font-weight: 600;
     font-size: 16px;
+    transition: none !important;
+    transition: all .3s linear;
 }
-
 
 /* first section */
 .FirstSection{
