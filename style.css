@@ -154,11 +154,31 @@ nav .row{
 }
 .RightImage img{
     transition: all .5s ease-in-out;
+    animation-name: ScalingAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    scale: 1;
+    position: relative;
+    top: 0px;
 }
-.RightImage:hover img{
+
+/* 
+@keyframes ScalingAnimation {
+    0%{
+        scale: 1.4;
+        top: 15px;
+    }
+
+    100%{
+        scale: 1;
+        top: 15px;
+    }
+} */
+
+/* .RightImage:hover img{
     scale: 1.1;
     top: 10px;
-}
+} */
 
 .BrandContainer{
     margin-top: 100px;
@@ -399,6 +419,11 @@ h1{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     transition: all .3s linear;
 }
+
+
+
+
+
 
 /* -------------------------- */
 ::-webkit-scrollbar {
