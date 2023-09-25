@@ -126,7 +126,7 @@ nav .row{
 }
 
 .RightSideText h1 span{
-    color: #330b72 ;
+    color:#791A96  ;
 }
 .RightSideText h5{
     font-weight: 400 !important;
@@ -146,6 +146,15 @@ nav .row{
     background-color: #f9fc61 !important;
     padding: 16px 32px 16px 32px;
     border-radius: 10px;
+    margin: 5px;
+}
+.LearnBtn:nth-child(2){
+    background-color: #791A96 !important;
+    color: white;
+}
+.LearnBtn:nth-child(2):hover{
+    background-color: #330b72 !important;
+    color: white;
 }
 .LearnBtn:hover{
     background-color:#e3e70d !important;
