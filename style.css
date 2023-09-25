@@ -437,7 +437,7 @@ h1{
 /* -------------------------- */
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: #061231;
+    background-color: #ffffff;
 }
 
 ::-webkit-scrollbar-track {
@@ -446,13 +446,13 @@ h1{
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #1d4ac4;
+    background-color: #791A96;
 }
 
 
 ::-moz-scrollbar {
     width: 12px;
-    background-color: #061231;
+    background-color: #791A96;
 }
 
 ::-moz-scrollbar-track {
@@ -461,12 +461,12 @@ h1{
 
 ::-moz-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #1d4ac4;
+    background-color: #791A96;
 }
 
 ::-ms-scrollbar {
     width: 12px;
-    background-color: #061231;
+    background-color: white;
 }
 
 ::-ms-scrollbar-track {
@@ -475,7 +475,7 @@ h1{
 
 ::-ms-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #1d4ac4;
+    background-color: #791A96;
 }
 
 
