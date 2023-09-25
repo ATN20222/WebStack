@@ -5,7 +5,7 @@
 }
 body{
     min-height: 1500vh;
-    
+    overflow-x: hidden;
 }
 @font-face {
     font-family: 'Slant';
