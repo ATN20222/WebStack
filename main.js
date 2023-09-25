@@ -10,3 +10,13 @@
         nav.style.boxShadow = 'none';
     }
     };
+
+    window.addEventListener('scroll', function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+        var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      
+        var progress = (scrollTop / (scrollHeight - clientHeight)) * 100;
+        document.querySelector('.barbar').style.width = progress + '%';
+        
+      });
