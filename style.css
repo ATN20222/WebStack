@@ -22,6 +22,7 @@ nav{
     z-index: 1000;
     top: 0;
     background-color: #061231;
+    background-color: white;
     min-height:80px;
     display: flex;
     justify-content: center;
@@ -60,6 +61,7 @@ nav .row{
     font-size: 16px;
     text-decoration: none;
     color: white;
+    color: #607d8b;
     font-weight: 600;
     
 }
@@ -82,6 +84,7 @@ nav .row{
 .FirstSection{
     position: relative;
     background-color: #061231;
+    background-color: white;
     min-height: 700px;
     z-index: 10;
 }
@@ -98,10 +101,20 @@ nav .row{
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.1;
+
+
+    font-family: Slant;
+    color: #061231;
+    letter-spacing: 1.5px;
+}
+
+.RightSideText h1 span{
+    color: #330b72 ;
 }
 .RightSideText h5{
     font-weight: 400 !important;
     color: #fff;
+    color: #607d8b;
     font-size: 20px;
     line-height:2.8rem;
 }
