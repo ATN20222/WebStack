@@ -6,6 +6,7 @@
 body{
     min-height: 1500vh;
     position: relative;
+    overflow-x: hidden;
 
 }
 @font-face {
@@ -47,6 +48,7 @@ nav .row{
     justify-content: end;
     align-items: center;
     align-self: center;
+    padding-right: 30px;
 
 }
 .RightNav ul {
@@ -54,15 +56,14 @@ nav .row{
     display: contents;
 }
 .RightNav ul li{
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 15px;
 }
 .RightNav ul li a{
     transition: all .1s linear;
     font-size: 16px;
     text-decoration: none;
-    color: white;
     color: #607d8b;
+    color: white;
     font-weight: 600;
     
 }
@@ -111,6 +112,7 @@ nav .row{
     justify-content: center;
     align-items: start;
     flex-direction: column;
+
 }
 .RightSideText h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -119,7 +121,6 @@ nav .row{
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.1;
-
 
     font-family: Slant;
     color: #061231;
@@ -144,7 +145,8 @@ nav .row{
     font-size: 16px;
     font-weight: 500;
     outline: none;
-    background-color: #f9fc61 !important;
+    background-color: #4C78DF !important;
+    color: white;
     padding: 16px 32px 16px 32px;
     border-radius: 10px;
     margin: 5px;
@@ -154,11 +156,11 @@ nav .row{
     color: white;
 }
 .LearnBtn:nth-child(2):hover{
-    background-color: #330b72 !important;
+    background-color: #4C78DF !important;
     color: white;
 }
 .LearnBtn:hover{
-    background-color:#e3e70d !important;
+    background-color:#791A96 !important;
     font-weight: 600;
     scale: 1.1;
 }

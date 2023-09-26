@@ -1,5 +1,5 @@
+var nav = document.querySelector('nav');
 var navItem= document.querySelectorAll('.RightNav ul li a');
-    var nav = document.querySelector('nav');
     window.onscroll = function() {
     var scrollPosition = window.scrollY;
     var threshold = 10;
