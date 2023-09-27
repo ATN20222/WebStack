@@ -5,8 +5,9 @@
 .slider .owl-item.active.center .slider-card {
   transform: scale(1.15);
   opacity: 1;
-  background-image: linear-gradient(130deg, #791A96, #4C78DF);
-  color: #fff;
+  /* background-image: linear-gradient(130deg, #791A96, #4C78DF); */
+  background-color: white;
+  /* color: #fff; */
 }
 .slider-card {
   background: #fff;
@@ -49,6 +50,7 @@
 }
 .owl-dots {
   text-align: center;
+  display: none;
 }
 .owl-dots .owl-dot {
   height: 10px;
