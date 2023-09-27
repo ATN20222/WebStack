@@ -1,0 +1,89 @@
+
+@media (max-width:1286px) {
+    .FirstContainer{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1220px) {
+    .RightNav ul li{
+        padding-left: 8px;
+    }
+}
+@media (max-width:1200px) {
+    .RightImage img{
+        display: none;
+    }
+
+    /* .GoalSection{
+        background-position: left !important;
+    } */
+}
+
+@media (max-width:1177px) {
+    .RightImage img{
+        display: block;
+    }
+    .RightImageEdited {
+        display: none;
+    }
+    .RightNav ul li {
+        padding-left: 15px;
+    }
+    .RightNav ul li a{
+        color: #607d8b !important;
+    }
+}
+
+
+@media (max-width:990px) {
+    .RightNav{
+        display: none;
+    }
+    .FirstSection{
+        padding-top: 30px !important;
+    }
+    .RightImage {
+        order: -1;
+    }
+    .FirstContainer{
+        margin-left: auto;
+    }
+    .RightSideText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .WeAreSection{
+        text-align: center;
+    }
+    .GoalHeader{
+        text-align: center;
+    }
+
+}
+@media (max-width:437px) {
+    .RightSideText h1{
+        font-size: 3.5rem;
+    }
+    .RightSideText h5{
+        font-size: 16px;
+    line-height: 1.8rem;
+    }
+}
+@media (max-width:388px) {
+    .RightSideText h1{
+        font-size: 3rem;
+    }
+    .GoalHeaderContainer h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:340px) {
+    .RightSideText h1{
+        font-size: 2.8rem;
+    }
+}

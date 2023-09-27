@@ -9,6 +9,10 @@ body{
     overflow-x: hidden;
 
 }
+.container{
+    overflow: hidden;
+
+}
 @font-face {
     font-family: 'Slant';
     src: url('fonts/Slant/SLANT.TTF');
@@ -250,7 +254,7 @@ nav .row{
     line-height: 1.1;
 }
 .WeAreRight{
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .WeAreRight h5{
@@ -441,7 +445,7 @@ h1{
 
 /* -------------------------- */
 ::-webkit-scrollbar {
-    width: 12px;
+    width:7px;
     background-color: #ffffff;
 }
 
@@ -450,13 +454,13 @@ h1{
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #791A96;
 }
 
 
 ::-moz-scrollbar {
-    width: 12px;
+    width:7px;
     background-color: #791A96;
 }
 
@@ -465,12 +469,12 @@ h1{
 }
 
 ::-moz-scrollbar-thumb {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #791A96;
 }
 
 ::-ms-scrollbar {
-    width: 12px;
+    width:7px;
     background-color: white;
 }
 
@@ -479,7 +483,7 @@ h1{
 }
 
 ::-ms-scrollbar-thumb {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #791A96;
 }
 
