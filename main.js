@@ -24,8 +24,29 @@ var navItem= document.querySelectorAll('.RightNav ul li a');
         var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
         var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
-      
         var progress = (scrollTop / (scrollHeight - clientHeight)) * 100;
         document.querySelector('.barbar').style.width = progress + '%';
         
-      });
+    });
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+    margin:10,
+    nav:false,
+    autoplay:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    center: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:3
+        }
+    }
+    });
+});
