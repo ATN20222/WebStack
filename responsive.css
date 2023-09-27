@@ -14,10 +14,6 @@
     .RightImage img{
         display: none;
     }
-
-    /* .GoalSection{
-        background-position: left !important;
-    } */
 }
 
 @media (max-width:1177px) {
@@ -34,7 +30,18 @@
         color: #607d8b !important;
     }
 }
-
+@media (max-width:1100px){
+    .GoalSection .container .row{
+        justify-content: center;
+    }
+    .GoalSection{
+        background-position: left;
+        text-align: center;
+    }
+    .GoalSection .container .row{
+        padding: 50px 20px 50px 20px;
+    }
+}
 
 @media (max-width:990px) {
     .RightNav{
