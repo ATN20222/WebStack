@@ -28,7 +28,7 @@ nav{
     top: 0;
     background-color: #061231;
     background-color: white;
-    min-height:80px;
+    min-height:70px;
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -439,9 +439,64 @@ h1{
 }
 
 
+footer{
+    /* min-height: 400px; */
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+footer .Footercontainer{
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+footer .Footercontainer .row div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .Footercontainer .row div:nth-child(2){
+    padding-left: 20px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .Footercontainer .row div:nth-child(3){
+    padding-left: 45px;
+}
+footer .Footercontainer .row div span{
+    display: flex;
+    justify-content: center;
+}
+.CopyRights span{
+    font-size: 14px;
+}
+.SocialFooterIcons {
+    display: flex;
+}
+.SocialFooterIcons li{
+    width: calc(50%/6) ;
+    height: 100%;
+    
+}
 
-
-
+.SocialFooterIcons li img{
+    width: 100%;
+    height: 100%;
+    transition: all .1s linear;
+    cursor: pointer;
+    position: relative;
+    bottom: 0;
+}
+.SocialFooterIcons li:hover img{
+    scale: 1.07;
+    bottom: 2px;
+}
 
 /* -------------------------- */
 ::-webkit-scrollbar {

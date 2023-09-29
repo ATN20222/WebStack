@@ -71,6 +71,10 @@
         text-align: center;
     }
 
+    .Footercontainer .row div{ 
+        align-items: center;
+    }
+
 }
 @media (max-width:437px) {
     .RightSideText h1{
