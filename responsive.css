@@ -5,30 +5,13 @@
     }
 }
 
-@media (max-width:1220px) {
-    .RightNav ul li{
-        padding-left: 8px;
-    }
-}
-@media (max-width:1200px) {
-    .RightImage img{
-        display: none;
-    }
-}
+
 
 @media (max-width:1177px) {
     .RightImage img{
         display: block;
     }
-    .RightImageEdited {
-        display: none;
-    }
-    .RightNav ul li {
-        padding-left: 15px;
-    }
-    .RightNav ul li a{
-        color: #607d8b !important;
-    }
+
 }
 @media (max-width:1100px){
     .GoalSection .container .row{

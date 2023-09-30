@@ -75,7 +75,7 @@ nav .row{
     display: contents;
 }
 .RightNav ul li{
-    padding-left: 15px;
+    padding-left: 35px;
 }
 .RightNav ul li a{
     transition: all .2s linear;
