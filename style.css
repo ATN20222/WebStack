@@ -78,16 +78,17 @@ nav .row{
     padding-left: 15px;
 }
 .RightNav ul li a{
-    transition: all .1s linear;
+    transition: all .2s linear;
     font-size: 16px;
     text-decoration: none;
-    color: #607d8b;
     color: white;
+    color: #607d8b;
+    color: #791A96;
     font-weight: 600;
     
 }
 .RightNav ul li:hover a{
-    color: #a8aebd;
+    color: #4C78DF;
 }
 .RightNav ul li button{
     padding: 15px 32px 15px 32px;
@@ -125,6 +126,12 @@ nav .row{
     background-color: white;
     min-height: 700px;
     z-index: 10;
+}
+.FirstContainer{
+    margin: 0;
+    padding: 0;
+    padding-left: 43px;
+    padding-right: 43px;
 }
 .RightSideText{
     display: flex;

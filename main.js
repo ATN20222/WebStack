@@ -14,24 +14,33 @@ window.addEventListener('load', () => {
     },50)
   });
     window.onscroll = function() {
+    // var scrollPosition = window.scrollY;
+    // var threshold = 10;
+    
+    // if (scrollPosition > threshold) {
+    //     nav.style.boxShadow = 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px';
+    //     nav.style.position = "sticky";
+    //     navItem.forEach(e=>{
+    //         e.style.color ="#607d8b";
+    //     })
+    // } else {
+    //     nav.style.boxShadow = 'none';
+    //     nav.style.position = "revert";
+    //     navItem.forEach(e=>{
+    //         e.style.color ="white";
+    //     })
+
+    // }
     var scrollPosition = window.scrollY;
     var threshold = 10;
-    
+    nav.style.position = "sticky";
     if (scrollPosition > threshold) {
-        nav.style.boxShadow = 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px';
-        nav.style.position = "sticky";
-        navItem.forEach(e=>{
-            e.style.color ="#607d8b";
-        })
-    } else {
+            nav.style.boxShadow = 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px';
+    }else{
+        
         nav.style.boxShadow = 'none';
-        nav.style.position = "revert";
-        navItem.forEach(e=>{
-            e.style.color ="white";
-        })
-
     }
-    };
+}
 
     window.addEventListener('scroll', function() {
         var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
