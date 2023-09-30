@@ -1,5 +1,18 @@
 var nav = document.querySelector('nav');
 var navItem= document.querySelectorAll('.RightNav ul li a');
+var fadeImage = document.querySelector(".RightImageEdited");
+var ops= 0;
+window.addEventListener('load', () => {
+
+    fadeImage.classList.add('FadeImageAnimation');
+    var time= setInterval(()=>{
+        ops+=0.1;
+        fadeImage.style.opacity=ops;
+        if(ops>=1){
+            clearInterval(time);
+        }
+    },50)
+  });
     window.onscroll = function() {
     var scrollPosition = window.scrollY;
     var threshold = 10;
@@ -54,3 +67,5 @@ $(document).ready(function(){
     }
     });
 });
+
+

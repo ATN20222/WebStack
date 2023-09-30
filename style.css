@@ -54,6 +54,22 @@ nav .row{
     padding-right: 30px;
 
 }
+.RightImageEdited{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    right: -366px;
+    height: 717px;
+    transform: translateX(100%);
+    opacity:0;
+    transition: all .8s ease-in-out;
+
+}
+.FadeImageAnimation{
+    transform: translateX(0) !important;
+}
+
 .RightNav ul {
     height: 100%;
     display: contents;
@@ -507,6 +523,7 @@ footer .Footercontainer .row div span{
     bottom: 2px;
 }
 
+
 /* -------------------------- */
 ::-webkit-scrollbar {
     width:7px;
@@ -552,3 +569,17 @@ footer .Footercontainer .row div span{
 }
 
 
+@keyframes Fading {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

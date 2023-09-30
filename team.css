@@ -1,0 +1,177 @@
+.TeamSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.TeamSection .container .row div h1{
+    font-weight: 800;
+}
+.AntonCards{
+    position: absolute !important;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .5s ease-in-out; 
+    left: 90px;
+    width: 70%;
+    background-color: transparent;
+    cursor:pointer;
+    border:none;
+}
+
+.AntonCardsActive{
+    scale: 0;
+    transform: translateX(-400%) !important;
+}
+.CardsAnimation{
+    scale: 1;    
+}
+
+.TopCard{
+    z-index: 30;
+    
+    transform: translateX(0%)  rotate(15deg)  ;
+}
+.BottomCard{
+    z-index: 28;
+    transform:translateX(0%) rotate(-15deg)  ;
+
+}
+.MidCard{
+    z-index: 29;
+    transform:translateX(0%)  ;
+}
+img{
+    border-radius: 20px !important;
+}
+.card{
+    background-color: transparent !important;
+    border:none !important;
+}
+.centerFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DescriptionText{
+    color: #000000;
+    z-index: 30;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height:20px; 
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.MainSectionCards{
+    position: relative;
+    height: 465px;
+    display: flex;
+    align-items: center;
+}
+.HighBoardHeader{
+    padding-top: 0;
+    padding-bottom: 0 !important;
+    padding-left: 10px;
+    color:#791A96;
+    font-family: Slant;
+    letter-spacing:1.5px;
+    padding-bottom: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.description{
+    display: none;    
+    animation-name: OpacityAnimation;
+    animation-duration: 2s;
+}
+
+.card.AntonCards.centerFlex.TopCard::after {
+    width: 80%;
+    position: absolute;
+    background-color: #00000066;
+    height: 100%;
+    content:  attr(Role-attribute);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    z-index: -1;
+    color:#ffffff;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+.card.AntonCards.centerFlex.TopCard:hover::after {
+    z-index: 100 !important;
+    transform: translateY(0) !important;
+}
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .description{
+        order: 2 !important;
+    }
+    .description .row .col-lg-5 {
+        height: min-content 
+        
+    }
+    .DescriptionImage{
+        border: none;
+        align-items: center;
+        height: 100%;
+        background-color: transparent !important;
+    }
+    .DescriptionImage img{
+        max-width: 80%;
+        max-height: 80%
+    }
+    .DescriptionText{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .HighBoardHeader{
+        text-align: center;
+    }
+}
+@media (min-width:560px) and (max-width:991px){
+    .DescriptionImage{
+        align-items: center;
+    }
+    .DescriptionImage img{
+        max-width: 50%;
+        max-height: 50%
+    }
+    .DescriptionText{
+        width: 50%;
+    }
+}
+@media(max-width:485px){
+    .AntonCards{
+        left: 50px;
+    }
+}
+.description{
+    transition: all 0.5s ease-in-out;
+}
+.HideSectionDes{
+    opacity: 0;
+}
+.ActiveSectionDes{
+    opacity: 1;
+}
+.card.AntonCards.centerFlex.TopCard{
+    overflow: hidden;
+}
