@@ -1,9 +1,13 @@
 var nav = document.querySelector('nav');
 var navItem= document.querySelectorAll('.RightNav ul li a');
 var fadeImage = document.querySelector(".RightImageEdited");
+var loading = document.querySelector('.loading');
+
+
+
 var ops= 0;
 window.addEventListener('load', () => {
-
+    loading.remove();
     fadeImage.classList.add('FadeImageAnimation');
     var time= setInterval(()=>{
         ops+=0.1;

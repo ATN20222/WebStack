@@ -8,6 +8,20 @@ body{
     overflow-x: hidden;
 
 }
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 10000;
+    background-color: white;
+
+}
+.loading img{
+    width: 300px;
+}
 .container{
     overflow: hidden;
 
@@ -99,9 +113,12 @@ nav .row{
     /* background: #1d4ac4; */
     background-image: linear-gradient(90deg, #791A96, #4C78DF);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 17px;
     transition: none !important;
     transition: all .3s linear;
+}
+.RightNav ul li button svg{
+    scale: 1.3;
 }
 .barbar{
     height: 5px;
@@ -268,15 +285,17 @@ nav .row{
 }
 
 
-.WeAreLeft h1{
+.WeAreRight h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: -1px;
     line-height: 1.1;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.WeAreRight{
-    /* padding-right: 100px; */
+.WeAreRight h1 span{
+    color: #791A96;
 }
 
 .WeAreRight h5{
