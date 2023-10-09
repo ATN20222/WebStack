@@ -22,7 +22,7 @@ body{
 .loading img{
     width: 300px;
 }
-.container{
+section{
     overflow: hidden;
 
 }
@@ -283,7 +283,6 @@ nav .row{
     justify-content: center;
     align-items: start;
 }
-
 
 .WeAreRight h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
