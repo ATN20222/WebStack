@@ -105,6 +105,7 @@ img{
     content:  attr(Role-attribute);
     display: flex;
     justify-content: center;
+    text-align: center;
     color: white;
     align-items: center;
     border-radius: 20px;

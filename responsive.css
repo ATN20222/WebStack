@@ -31,6 +31,12 @@
 }
 
 @media (max-width:990px) {
+    .ServicesCard{
+        max-width: 500px;
+    }
+    .ServicesCard div .row .col-lg-7{
+        order: -1;
+    }
     .RightNav{
         display: none;
     }
